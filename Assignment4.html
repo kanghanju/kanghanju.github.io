@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>기초구현실습_로그인화면</title>
+    <style>
+        section{
+            width:350px;
+            height:140px;
+            border-radius: 5px;
+            border: 1px solid #DBDBDB;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        section > p{
+            font-weight: normal;
+            font-size: 12px;
+            color:black;
+            margin-right: 80px;
+        }
+
+        .login_btn{
+            width: 318px;
+            height: 40px;
+            border-radius: 4px;
+            background-color: #711BFF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login_btn span{
+            color:white;
+        }
+
+        .login_others{
+            width:318px;
+            height:40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        .login_others span{
+            font-weight: normal;
+            font-size: 12px;
+            color:#767676;
+        }
+        .find_ID_PW,.join{
+            display: flex;
+            gap:3px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <section>
+        <p>더 편리해진 위니브에 오신 것을 환영합니다.</p>
+        <div class="login_btn">
+            <img src="weniv-logo%20(1).png" alt="weniv">
+            <span>로그인</span>
+        </div>
+        <div class="login_others">
+            <div class="find_ID_PW">
+                <img src="icon-lock.png" alt="lock_icon">
+                <span>아이디 | 비밀번호찾기</span>
+            </div>
+            <div class="join">
+                <img src="icon-user.png" alt="user_icon">
+                <span>회원가입</span>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
