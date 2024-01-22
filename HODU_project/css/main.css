@@ -1,0 +1,379 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: white;
+    font-family: 'Pretendard-Regular';
+}
+
+.section-01,.section-02,.section-03{
+    max-width: 1280px;
+    margin:0 auto;
+    padding:0 320px;
+}
+
+.section-01{
+    background-color: #F2E9D8;
+}
+
+header {
+    display: flex;
+    padding:31px 0;
+}
+
+header img {
+    height: 40px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    margin-left: 756px;
+    gap: 30px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover, .btn-orange:hover{
+    color:olivedrab;
+}
+
+.normal-font {
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color:black;
+}
+
+nav li button {
+    margin-left: 19px;
+}
+
+.btn-orange {
+    padding: 15px 31px 15px 31px;
+    line-height: 20px;
+    border: none;
+    border-radius: 40px;
+    background-color: #D97652;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.section-01-main {
+    display: flex;
+    align-items: center;
+}
+
+.section-01-main img {
+    width: 415px;
+    height: 766px;
+    margin-top: 32px;
+}
+
+.section-01-main article {
+    margin-right: 170px;
+}
+
+.big-font {
+    line-height: 60px;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.section-01-main h1 {
+    margin-bottom: 40px;
+}
+
+.section-01-main button {
+    margin-top: 40px;
+}
+/*첫번째 섹션 끝*/
+
+/*두번째 섹션 시작*/
+.section-02-intro {
+    display: flex;
+    margin-top: 80px;
+}
+
+.section-02-intro img {
+    width: 660px;
+    height: 390px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 30px rgb(0, 0, 0, 0.25);
+}
+
+.section-02-intro-text {
+    padding-left: 110px;
+    padding-top: 92px;
+}
+
+.section-02-intro-text h3 {
+    line-height: 45px;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.section-02-intro-text p {
+    margin-top: 30px;
+}
+
+.section-02-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.section-02-body .big-font, .normal-font span {
+    color: #d97652
+}
+
+.section-02-body p {
+    padding-top: 40px;
+}
+
+.container {
+    display: grid;
+    overflow-x:hidden;
+    overflow-y: scroll;
+    height:900px;
+    grid-template-columns: 378px 378px 378px;
+    grid-template-rows: 378px 378px;
+    row-gap:72px;
+    column-gap: 72px;
+    padding-top:44px;
+    margin-right: -50px;
+    margin-bottom: 100px;
+}
+
+.container img {
+    position: relative;
+    width: 378px;
+    height: 378px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 30px rgb(0, 0, 0, 0.25);
+}
+
+.container img:hover{
+    transform:scale(1.03);
+}
+
+.show-more-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.show-more-box p {
+    padding-bottom: 28px;
+    line-height: 30px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.show-more-box button {
+    padding: 15px 29px 15px 29px;
+    margin-bottom:80px;
+}
+/*두번째 섹션 끝*/
+
+/*세번째 섹션 시작*/
+.section-03-intro {
+    padding-top: 68px;
+}
+
+.section-03-intro > p {
+    padding-bottom: 20px;
+    line-height: 45px;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.section-03-intro p:nth-child(2) {
+    padding-bottom: 48px;
+    line-height: 20px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.subscribe-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    padding: 51px 58px 51px 58px;
+    border-radius: 30px;
+    background-color: #263140;
+}
+
+.subscribe-text h3 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: white;
+}
+
+.subscribe-text div {
+    padding-top: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+}
+
+
+.subscribe-input {
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+    border-radius: 60px;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: white;
+    color: #767676;
+}
+
+.subscribe-input img {
+    margin-left: 28px;
+}
+
+#email {
+    border: none;
+    margin-left: 16px;
+    width: 321px;
+}
+
+.subscribe-input .btn-orange {
+    padding: 15px 29px 15px 29px;
+    margin: 5px 6px 5px 0;
+}
+
+.vector-box{
+    position: relative;
+    margin-left: -320px;
+    margin-right: -320px;
+}
+
+.cat{
+    position: relative;
+    width:1920px;
+    height:340px ;
+    z-index: -1;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.vector{
+    position: absolute;
+    right:24px;
+    bottom:19px;
+    padding: 15px 15px 15px 15px;
+    opacity: 0.8;
+    border-radius: 50%;
+    border:1px solid #C4C4C4;
+}
+
+/*모달창 만들기*/
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal img:first-child {
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgb(0, 0, 0, 0.25);
+}
+
+.modal img:nth-child(2) {
+    position: absolute;
+    top: 60px;
+    left: 245px;
+}
+
+.close-image {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+.modal h3 {
+    position: absolute;
+    top: 196px;
+    left:215px;
+    line-height: 45px;
+    font-weight: 700;
+    font-size: 36px;
+    color: #D97652;
+    text-align: center;
+}
+
+.modal p {
+    position: absolute;
+    top:254px;
+    left:108px;
+}
+
+.modal .btn-orange {
+    position: absolute;
+    top:310px;
+    left:205px;
+}
+/*모달창 완료*/
+
+footer {
+    display: flex;
+    align-items: center;
+    margin: 45px 0;
+}
+
+footer img{
+    width:226px;
+    height:70px;
+}
+
+footer li a{
+    display: flex;
+    padding: 9px 9px 9px 9px;
+    border-radius: 50%;
+    background-color: #f29D52;
+}
+
+footer a img{
+   width: 24px;
+    height: 24px;
+}
+
+footer a:hover{
+    transform:translate(0,-10%);
+}
+
+footer li:nth-child(1) a:hover{
+    background-color:#2db400;
+}
+
+footer li:nth-child(2) a:hover{
+    background-color: rgb(129,52,175);
+}
+
+footer li:nth-child(3) a:hover{
+    background-color:#3b5998;
+}
+
+footer li:nth-child(4) a:hover{
+    background-color:#c4302b;
+}
+/*세번째 섹션 끝*/
+
