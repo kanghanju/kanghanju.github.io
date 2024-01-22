@@ -149,7 +149,7 @@ nav li button {
     grid-template-rows: 378px 378px;
     row-gap:72px;
     column-gap: 72px;
-    padding-top:44px;
+    margin-top: 88px;
     margin-right: -50px;
     margin-bottom: 100px;
 }
@@ -290,6 +290,7 @@ nav li button {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 1;
 }
 
 .modal img:first-child {
